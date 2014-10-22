@@ -15,8 +15,7 @@
 # You should have received a copy of the GNU General Public License
 # along with Adblock Plus.  If not, see <http://www.gnu.org/licenses/>.
 
-import MySQLdb, hashlib, sys, os, re
-from time import time
+import MySQLdb
 from email.utils import parseaddr
 from sitescripts.utils import get_config, get_template, setupStderr
 from sitescripts.reports.utils import getReport, saveReport, get_db, executeQuery

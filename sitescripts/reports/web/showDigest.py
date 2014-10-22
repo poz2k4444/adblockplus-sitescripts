@@ -15,7 +15,7 @@
 # You should have received a copy of the GNU General Public License
 # along with Adblock Plus.  If not, see <http://www.gnu.org/licenses/>.
 
-import re, os, sys, hashlib, Cookie
+import re, os, Cookie
 from datetime import date, timedelta, datetime
 from urlparse import parse_qs
 from sitescripts.reports.utils import getDigestSecret, getDigestSecret_compat

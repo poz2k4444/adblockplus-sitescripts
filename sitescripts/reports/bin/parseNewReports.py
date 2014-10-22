@@ -15,7 +15,7 @@
 # You should have received a copy of the GNU General Public License
 # along with Adblock Plus.  If not, see <http://www.gnu.org/licenses/>.
 
-import os, sys, re, marshal, codecs
+import os, re
 from urlparse import urlparse
 from time import time
 from xml.parsers.expat import ParserCreate, ExpatError, ErrorString
