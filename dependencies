@@ -1,0 +1,5 @@
+# VCS-specific root URLs for the repositories
+_root = hg:https://hg.adblockplus.org/ git:https://github.com/adblockplus/
+
+# VCS-specific references to submodule revisions
+buildtools = buildtools hg:4bc6a285d351 git:af7650c
